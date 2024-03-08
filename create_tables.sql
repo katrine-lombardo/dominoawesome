@@ -33,3 +33,14 @@ CREATE TABLE IF NOT EXISTS designs_pieces (
     FOREIGN KEY (design_id) REFERENCES designs(id),
     FOREIGN KEY (piece_id) REFERENCES pieces(id)
 );
+
+-- DROP TABLE designs_pieces;
+-- CREATE TABLE IF NOT EXISTS designs_pieces (
+--     id INTEGER PRIMARY KEY,
+--     design_id INTEGER,
+--     piece_id INTEGER,
+--     filament_id integer,
+--     FOREIGN KEY (design_id) REFERENCES designs(id),
+--     FOREIGN KEY (piece_id) REFERENCES pieces(id),
+--     FOREIGN KEY (filament_id) REFERENCES filaments(id)
+-- );

@@ -27,3 +27,6 @@ INSERT INTO designs (id, design, print_minutes) VALUES
 (0, 'Zombie Cop Dog', 999),
 (1, 'Go Joe Dog', 999),
 (2, 'Doggo in Disguise', 999);
+
+
+INSERT INTO designs_pieces (id, design_id, piece_id, color_id)
