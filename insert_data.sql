@@ -1,8 +1,17 @@
 INSERT INTO filaments (id, color, grams, unit_price, material) VALUES
-    (0, 'Black', 1000, 14.00, 'PLA'),
-    (1, 'Red', 1000, 23.99, 'PLA'),
-    (2, 'White', 1000, 15.00, 'PLA'),
-    (3, 'Blue', 1000, 18.00, 'PLA'),
-    (4, 'Light Blue', 1000, 20.99, 'PLA');
+(0, 'Black', 1000, 14.00, 'PLA'),
+(1, 'Red', 1000, 23.99, 'PLA'),
+(2, 'White', 1000, 15.00, 'PLA'),
+(3, 'Blue', 1000, 18.00, 'PLA'),
+(4, 'Light Blue', 1000, 20.99, 'PLA');
 
 
+INSERT INTO pieces (id, piece, grams) VALUES
+(0, 'Armor', 10),
+(1, 'Chest', 10),
+(2, 'Hands', 5),
+(3, 'Shotgun', 5),
+(4, 'Skeleton', 7),
+(5, 'Star', 3),
+(6, 'Star Outline', 3),
+(7, 'Swords', 7);
