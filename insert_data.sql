@@ -21,3 +21,9 @@ INSERT INTO heads (id, head, grams, print_minutes) VALUES
 (0, 'Pitbull Cody', 4, 63),
 (1, 'Cat', 3, 37),
 (2, 'Pug', 10, 999);
+
+
+INSERT INTO designs (id, design, print_minutes) VALUES
+(0, 'Zombie Cop Dog', 999),
+(1, 'Go Joe Dog', 999),
+(2, 'Doggo in Disguise', 999);
