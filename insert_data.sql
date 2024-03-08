@@ -29,4 +29,18 @@ INSERT INTO designs (id, design, print_minutes) VALUES
 (2, 'Doggo in Disguise', 999);
 
 
-INSERT INTO designs_pieces (id, design_id, piece_id, color_id)
+INSERT INTO designs_pieces (id, design_id, piece_id, filament_id) VALUES
+(0,	0,	0,	3),
+(1,	0,	1,	0),
+(2,	0,	2,	0),
+(3,	0,	3,	0),
+(4,	0,	4,	2),
+(5,	1,	0,	2),
+(6,	1,	2,	2),
+(7,	1,	3,	1),
+(8,	1,	5,	3),
+(9,	1,	6,	2),
+(10, 1, 7,	1),
+(11, 2, 4,	0),
+(12, 2,	2,	0),
+(13, 2,	0,	1);
