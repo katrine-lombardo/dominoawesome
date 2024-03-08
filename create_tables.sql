@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS filaments (
     id INTEGER PRIMARY KEY,
     color VARCHAR(50),
     grams INTEGER,
-    unit_price INTEGER,
+    unit_price NUMERIC(5,7),
     material VARCHAR(50)
 );
 
